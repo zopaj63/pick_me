@@ -1,0 +1,1 @@
+A small script to pick a student for homework in Kodiraonica coding school
