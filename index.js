@@ -157,6 +157,6 @@ function drawHand(ctx, pos, length, width) {
 
 var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 var today = new Date();
-document.querySelector("#date").innerHTML = (today.toLocaleDateString("en-US", options));
+document.querySelector("#date").innerHTML = (today.toLocaleDateString("hr", options));
 
 loadUcenici()
