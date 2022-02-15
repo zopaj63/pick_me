@@ -71,7 +71,7 @@ function randomPick(obj) {
 }
 
 // clock *******
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("clock");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
 ctx.translate(radius, radius);
