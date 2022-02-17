@@ -13,6 +13,11 @@ button.addEventListener("click", (e) => {
     }
 });
 
+biraj.addEventListener("click", (e) => {
+    e.preventDefault();
+    location.reload();
+});
+
 function saveUcenik() {
     const uceniciIzStorage = localStorage.getItem("ucenici")
     if (uceniciIzStorage) {

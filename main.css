@@ -33,8 +33,9 @@ input {
 }
 
 input[type="submit"] {
-  background-color: #293241;
-  color: white;
+  background-color: #1a6a34;
+  color: lightgrey;
+  margin-left: 6px;
   cursor: pointer;
 }
 
@@ -81,5 +82,13 @@ a {
   margin: 20px;
   font-size: 0.8rem;
   text-align: center;
+  text-decoration: none;
+  color: #134d39;
+}
+
+.choose {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
 }
 /*# sourceMappingURL=main.css.map */
