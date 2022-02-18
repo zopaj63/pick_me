@@ -2,6 +2,7 @@ const input = document.getElementById("name");
 const button = document.getElementById("button");
 const lista = document.getElementById("list");
 const lis = document.querySelectorAll('li')
+const biraj = document.getElementById("biraj");
 
 button.addEventListener("click", (e) => {
     e.preventDefault();
